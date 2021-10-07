@@ -18,6 +18,8 @@ class CollectionCell:UICollectionViewCell{
         let imageView = UIImageView()
         imageView.contentMode = .scaleAspectFill
         imageView.clipsToBounds = true
+        imageView.isUserInteractionEnabled = true
+        imageView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(cardImageTapped)))
         return imageView
     }()
     
@@ -28,6 +30,10 @@ class CollectionCell:UICollectionViewCell{
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+    
+    @objc func cardImageTapped(){
+        
     }
     
     //MARK: -Configure

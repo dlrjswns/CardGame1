@@ -24,6 +24,8 @@
 		700EE398270CCFEB009C20E6 /* image6.png in Resources */ = {isa = PBXBuildFile; fileRef = 700EE391270CCFEB009C20E6 /* image6.png */; };
 		700EE399270CCFEB009C20E6 /* image2.png in Resources */ = {isa = PBXBuildFile; fileRef = 700EE392270CCFEB009C20E6 /* image2.png */; };
 		700EE39A270CCFEB009C20E6 /* image4.png in Resources */ = {isa = PBXBuildFile; fileRef = 700EE393270CCFEB009C20E6 /* image4.png */; };
+		700EE39C270F27CD009C20E6 /* CollectionHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700EE39B270F27CD009C20E6 /* CollectionHeaderCell.swift */; };
+		700EE3A5270F2E17009C20E6 /* CollectionFooterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700EE3A4270F2E17009C20E6 /* CollectionFooterCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,8 @@
 		700EE391270CCFEB009C20E6 /* image6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image6.png; sourceTree = "<group>"; };
 		700EE392270CCFEB009C20E6 /* image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image2.png; sourceTree = "<group>"; };
 		700EE393270CCFEB009C20E6 /* image4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image4.png; sourceTree = "<group>"; };
+		700EE39B270F27CD009C20E6 /* CollectionHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionHeaderCell.swift; sourceTree = "<group>"; };
+		700EE3A4270F2E17009C20E6 /* CollectionFooterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionFooterCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		700EE349270CCBBA009C20E6 = {
 			isa = PBXGroup;
 			children = (
+				700EE39F270F2D33009C20E6 /* Controllers */,
 				700EE38A270CCFC8009C20E6 /* images */,
 				700EE387270CCC27009C20E6 /* Views */,
 				700EE354270CCBBA009C20E6 /* CardGame1 */,
@@ -152,6 +157,8 @@
 			isa = PBXGroup;
 			children = (
 				700EE388270CCC41009C20E6 /* CollectionCell.swift */,
+				700EE39B270F27CD009C20E6 /* CollectionHeaderCell.swift */,
+				700EE3A4270F2E17009C20E6 /* CollectionFooterCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -169,6 +176,13 @@
 				700EE38E270CCFEB009C20E6 /* image8.png */,
 			);
 			path = images;
+			sourceTree = "<group>";
+		};
+		700EE39F270F2D33009C20E6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,6 +326,8 @@
 				700EE386270CCBED009C20E6 /* CollectionViewController.swift in Sources */,
 				700EE356270CCBBA009C20E6 /* AppDelegate.swift in Sources */,
 				700EE358270CCBBA009C20E6 /* SceneDelegate.swift in Sources */,
+				700EE39C270F27CD009C20E6 /* CollectionHeaderCell.swift in Sources */,
+				700EE3A5270F2E17009C20E6 /* CollectionFooterCell.swift in Sources */,
 				700EE389270CCC41009C20E6 /* CollectionCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
